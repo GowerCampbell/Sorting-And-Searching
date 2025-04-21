@@ -1,7 +1,3 @@
-Here's an improved and more refined version of the "Sorting and Searching" explanation that enhances clarity, tone, and flow. The revised text keeps the educational tone but adds more depth, context, and learner-focused insights:
-
----
-
 # Sorting and Searching 
 
 Welcome to my **Sorting and Searching Learning Module** — a hands-on guide to mastering two foundational concepts in computer science. Curated by Gower Campbell, this repository offers a comprehensive walkthrough of key algorithms, real-world applications, and complexity insights — all in clean, modular Python.
@@ -52,6 +48,46 @@ Sorting transforms disordered data into a predictable structure. The module incl
 | **Quick Sort**      | O(n²)           | O(log n)        | Uses a pivot to partition data and recursively sort subarrays. Fast in practice; core of many libraries. | [quick_sort.py](sorting_algorithms/quick_sort.py) |
 | **Merge Sort**      | O(n log n)      | O(n)            | Divide-and-conquer algorithm that splits, sorts, and merges. Reliable and stable. | [merge_sort.py](sorting_algorithms/merge_sort.py) |
 | **Timsort**         | O(n log n)      | O(n)            | Hybrid of Merge and Insertion Sort; Python’s built-in `sort()` is based on this. Adaptive and production-ready. | [timsort.py](sorting_algorithms/timsort.py) |
+
+## 🔃 Sorting Algorithms
+Sorting algorithms reorder elements based on specific rules. This module includes:
+
+1. Bubble Sort
+Compares adjacent elements and swaps if they’re out of order. Best for small or nearly sorted datasets.
+Time: O(n) best, O(n²) average/worst
+Space: O(1)
+📂 Implementation
+
+2. Insertion Sort
+Builds a sorted list by inserting elements into their correct position.
+Time: O(n) best, O(n²) average/worst
+Space: O(1)
+📂 Implementation
+
+3. Selection Sort
+Selects the smallest (or largest) element and places it at the front.
+Time: O(n²) all cases
+Space: O(1)
+📂 Implementation
+
+4. QuickSort
+Uses a pivot to partition and recursively sort. Fast in practice.
+Time: O(n log n) best/avg, O(n²) worst
+Space: O(log n)
+📂 Implementation
+
+5. Merge Sort
+Divide-and-conquer strategy that splits and merges sorted halves. Stable and predictable.
+Time: O(n log n) all cases
+Space: O(n)
+📂 Implementation
+
+6. TimSort
+Hybrid of Merge Sort and Insertion Sort. Built for real-world data.
+Time: O(n) best, O(n log n) average/worst
+Space: O(n)
+📂 Implementation
+
 
 ### Key Sorting Concepts
 
@@ -110,6 +146,7 @@ To choose the right algorithm, you must understand its performance in terms of *
 
 ---
 
+
 ## Reflections
 
 In [reflections.md](docs/reflections.md), you’ll find personal insights and best-practice tips:
@@ -118,5 +155,18 @@ In [reflections.md](docs/reflections.md), you’ll find personal insights and be
 - Choose Binary Search only when your data is already sorted.
 - Think of sorting and searching like real-life activities: organizing your email inbox, finding a name in your contact list, or browsing a playlist.
 
+---
 
-Let me know if you'd like this in Markdown format or want help editing specific files in your repo!
+## 📚 Bibliography
+
+- [GeeksforGeeks: Sorting Algorithms](https://www.geeksforgeeks.org/fundamentals-of-algorithms/#Sorting)  
+- [GeeksforGeeks: Searching Algorithms](https://www.geeksforgeeks.org/searching-algorithms/)
+
+- [Python Docs: Data Structures (Lists)](https://docs.python.org/3/tutorial/datastructures.html)  
+- [Python Docs: Sorting Techniques](https://docs.python.org/3/howto/sorting.html)  
+- [Python Docs: Defining Functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
+
+- [University of Cape Town (2014): Visual Algorithm Tools](https://www.cs.uct.ac.za/Research/DNA/Visualizations/)
+
+- [Dalal (2004): Search Algorithm Examples – ResearchGate](https://www.researchgate.net/publication/221186184_Searching_algorithms_in_inverted_files)
+
