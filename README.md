@@ -49,40 +49,41 @@ Sorting transforms disordered data into a predictable structure. The module incl
 | **Merge Sort**      | O(n log n)      | O(n)            | Divide-and-conquer algorithm that splits, sorts, and merges. Reliable and stable. | [merge_sort.py](sorting_algorithms/merge_sort.py) |
 | **Timsort**         | O(n log n)      | O(n)            | Hybrid of Merge and Insertion Sort; Python’s built-in `sort()` is based on this. Adaptive and production-ready. | [timsort.py](sorting_algorithms/timsort.py) |
 
+---
 ## 🔃 Sorting Algorithms
 Sorting algorithms reorder elements based on specific rules. This module includes:
 
-1. Bubble Sort
+**Bubble Sort**
 Compares adjacent elements and swaps if they’re out of order. Best for small or nearly sorted datasets.
 Time: O(n) best, O(n²) average/worst
 Space: O(1)
 📂 Implementation
 
-2. Insertion Sort
+**Insertion Sort**
 Builds a sorted list by inserting elements into their correct position.
 Time: O(n) best, O(n²) average/worst
 Space: O(1)
 📂 Implementation
 
-3. Selection Sort
+**Selection Sort**
 Selects the smallest (or largest) element and places it at the front.
 Time: O(n²) all cases
 Space: O(1)
 📂 Implementation
 
-4. QuickSort
+**QuickSort**
 Uses a pivot to partition and recursively sort. Fast in practice.
 Time: O(n log n) best/avg, O(n²) worst
 Space: O(log n)
 📂 Implementation
 
-5. Merge Sort
+**Merge Sort**
 Divide-and-conquer strategy that splits and merges sorted halves. Stable and predictable.
 Time: O(n log n) all cases
 Space: O(n)
 📂 Implementation
 
-6. TimSort
+**TimSort**
 Hybrid of Merge Sort and Insertion Sort. Built for real-world data.
 Time: O(n) best, O(n log n) average/worst
 Space: O(n)
