@@ -110,7 +110,36 @@ Searching is about **locating specific data within a dataset**. Depending on whe
 ### Key Searching Concepts
 
 - **Sorted Data Requirement**: Binary Search only works when data is sorted. Sorting first can significantly improve search speed in large datasets.
-- **Recursive vs Iterative**: Binary Search is implemented both recursively (clean, elegant) and iteratively (efficient, stack-safe).
+- **Recursive vs Iterative**: Binary Search is implemented both recursively (clean, elegant) and iteratively (efficient, stack-safe). 
+
+---
+---
+
+## ⏱️ Big O Notation
+
+Big O notation describes how an algorithm’s performance scales with the size of its input. It focuses on the **worst-case scenario** to evaluate efficiency and scalability.
+
+### 🔢 Common Complexities
+
+- **O(1)** – Constant time (e.g., accessing a list index)
+- **O(log n)** – Logarithmic time (e.g., Binary Search)
+- **O(n)** – Linear time (e.g., Linear Search)
+- **O(n log n)** – Linearithmic time (e.g., Merge Sort, QuickSort average)
+- **O(n²)** – Quadratic time (e.g., Bubble Sort, Selection Sort)
+
+### 📊 Complexity Comparison Table
+
+| Algorithm         | Best Case     | Average Case   | Worst Case     |
+|------------------|---------------|----------------|----------------|
+| **Bubble Sort**   | O(n)          | O(n²)          | O(n²)          |
+| **Insertion Sort**| O(n)          | O(n²)          | O(n²)          |
+| **Selection Sort**| O(n²)         | O(n²)          | O(n²)          |
+| **QuickSort**     | O(n log n)    | O(n log n)     | O(n²)          |
+| **Merge Sort**    | O(n log n)    | O(n log n)     | O(n log n)     |
+| **TimSort**       | O(n)          | O(n log n)     | O(n log n)     |
+| **Linear Search** | O(1)          | O(n)           | O(n)           |
+| **Binary Search** | O(1)          | O(log n)       | O(log n)       |
+
 
 ---
 
@@ -135,15 +164,30 @@ See how sorting and searching play out in everyday systems:
 
 ---
 
-## Complexity Analysis
+---
 
-To choose the right algorithm, you must understand its performance in terms of **Big O** notation. Review the [complexity guide](docs/complexity.md) for visual charts and examples:
+## 🗂️ Data Structures
 
-- **O(1)**: Constant time (e.g., direct index access)
-- **O(log n)**: Logarithmic (e.g., Binary Search)
-- **O(n)**: Linear (e.g., Linear Search)
-- **O(n²)**: Quadratic (e.g., Bubble Sort)
-- **O(n log n)**: Efficient sorting (e.g., Merge Sort, Quick Sort average case)
+Efficient algorithms rely on the right data structures. This module introduces foundational structures used in sorting, searching, and problem-solving.
+
+### 🔹 Lists
+Dynamic arrays that allow indexing, slicing, and iteration. Python’s go-to structure for general-purpose storage.
+
+📂 [Implementation](data_structures/list_operations.py)
+
+---
+
+### 🔹 Stacks
+**LIFO** (Last In, First Out) structure. Ideal for undo features, recursive parsing, and expression evaluation.
+
+📂 [Implementation](data_structures/stack.py)
+
+---
+
+### 🔹 Queues
+**FIFO** (First In, First Out) structure. Commonly used in task scheduling, simulations, and print/job queues.
+
+📂 [Implementation](data_structures/queue.py)
 
 ---
 
