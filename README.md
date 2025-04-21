@@ -72,6 +72,7 @@ Searching is about **locating specific data within a dataset**. Depending on whe
 
 - **Sorted Data Requirement**: Binary Search only works when data is sorted. Sorting first can significantly improve search speed in large datasets.
 - **Recursive vs Iterative**: Binary Search is implemented both recursively (clean, elegant) and iteratively (efficient, stack-safe).
+  [binary_search_recursive.py](searching_algorithms/binary_search_recursive.py)
 
 ---
 
