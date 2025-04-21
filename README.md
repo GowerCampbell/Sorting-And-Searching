@@ -97,9 +97,37 @@ See how sorting and searching play out in everyday systems:
 
 ---
 
-## Complexity Analysis
+# 📊 Complexity AnalysisOverview
 
-[Previous content remains unchanged as it contains no file links]
+Big O notation describes how an algorithm’s performance scales with the size of its input. It helps evaluate the **efficiency** and **scalability** of algorithms, focusing on the **worst-case scenario**.
+
+
+## 🔍 Common Time Complexities
+
+| Big O        | Name               | Description                                  | Example                            |
+|--------------|--------------------|----------------------------------------------|------------------------------------|
+| O(1)         | Constant Time       | Performance does not grow with input size     | Accessing a list element: `arr[0]` |
+| O(log n)     | Logarithmic Time    | Reduces the problem size each step           | Binary Search                      |
+| O(n)         | Linear Time         | Grows directly with input size               | Linear Search                      |
+| O(n log n)   | Linearithmic Time   | Grows slightly faster than linear            | Merge Sort, QuickSort (avg)       |
+| O(n²)        | Quadratic Time      | Performance degrades fast with size          | Bubble Sort, Selection Sort       |
+
+
+## 📈 Complexity Comparison Table
+
+| Algorithm       | Best Case | Average Case | Worst Case  |
+|-----------------|-----------|--------------|-------------|
+| **Bubble Sort**     | O(n)      | O(n²)         | O(n²)        |
+| **Insertion Sort**  | O(n)      | O(n²)         | O(n²)        |
+| **Selection Sort**  | O(n²)     | O(n²)         | O(n²)        |
+| **QuickSort**       | O(n log n)| O(n log n)    | O(n²)        |
+| **Merge Sort**      | O(n log n)| O(n log n)    | O(n log n)   |
+| **TimSort**         | O(n)      | O(n log n)    | O(n log n)   |
+| **Linear Search**   | O(1)      | O(n)          | O(n)         |
+| **Binary Search**   | O(1)      | O(log n)      | O(log n)     |
+
+> 💡 Want to **see sorting algorithms in action**?  
+> 🎨 Try this visual tool: [https://sortvisualizer.com/](https://sortvisualizer.com/)
 
 ---
 
