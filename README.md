@@ -2,9 +2,9 @@ Here's an improved and more refined version of the "Sorting and Searching" expla
 
 ---
 
-# Sorting and Searching Learning Module
+# Sorting and Searching 
 
-Welcome to the **Sorting and Searching Learning Module** — your hands-on guide to mastering two foundational concepts in computer science. Curated by Gower Campbell and enhanced by Grok, this repository offers a comprehensive walkthrough of key algorithms, real-world applications, and complexity insights — all in clean, modular Python.
+Welcome to my **Sorting and Searching Learning Module** — a hands-on guide to mastering two foundational concepts in computer science. Curated by Gower Campbell, this repository offers a comprehensive walkthrough of key algorithms, real-world applications, and complexity insights — all in clean, modular Python.
 
 Whether you're a coding newcomer or revisiting the basics, this module aims to make sorting and searching intuitive, applicable, and engaging.
 
